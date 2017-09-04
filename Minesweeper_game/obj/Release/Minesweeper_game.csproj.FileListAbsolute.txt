@@ -1,0 +1,14 @@
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\bin\Release\Minesweeper_game.exe.config
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\bin\Release\Minesweeper_game.exe
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\bin\Release\Minesweeper_game.pdb
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\MainWindow.g.cs
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\App.g.cs
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game_MarkupCompile.cache
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game_MarkupCompile.lref
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\MainWindow.baml
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game.g.resources
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game.Properties.Resources.resources
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game.csproj.GenerateResource.Cache
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game.csproj.CoreCompileInputs.cache
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game.exe
+C:\Users\임석호\Documents\GitHub\Minesweeper_game\Minesweeper_game\obj\Release\Minesweeper_game.pdb
