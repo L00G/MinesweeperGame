@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Minesweeper_game
+namespace MinesweeperGame
 {
     class Setting
     {
-        private static int c_width = 20;
-        private static int c_height = 20;
-        private static int c_mineCount = 53;
+        private static int c_width = 9;
+        private static int c_height = 9;
+        private static int c_mineCount = 10;
 
         const int c_blockWidth = 20;
         const int c_blockHeight = 20;

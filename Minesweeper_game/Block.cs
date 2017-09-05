@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace Minesweeper_game
+namespace MinesweeperGame
 {
     class Block : Button
     {
@@ -95,12 +90,13 @@ namespace Minesweeper_game
 
                 if (m_state == State.Zero)
                 {
+                    UIElementCollection iterator = ((Grid)Parent).Children;
                     for (int j = 0; j < 8; j++)
                     {
                         int tx = m_col + xPos[j], ty = m_row + yPos[j];
                         if (0 <= tx && tx < Setting.Width)
                             if (0 <= ty && ty < Setting.Height)
-                                ((Block)((Grid)Parent).Children[ty * Setting.Width + tx]).Open();
+                                ((Block)iterator[ty * Setting.Width + tx]).Open();
                     }
 
                 }

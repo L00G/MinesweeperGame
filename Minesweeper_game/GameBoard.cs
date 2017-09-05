@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace Minesweeper_game
+namespace MinesweeperGame
 {
     class GameBoard : Grid
     {
@@ -42,8 +37,6 @@ namespace Minesweeper_game
  
                         MessageBox.Show("Failed");
                     }
-                    //MessageBox.Show(string.Format("Button clicked at column {0}, row {1}, state{2}", column, row, state));
-
                 }
             }
         }

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Minesweeper_game
+namespace MinesweeperGame
 {
     /// <summary>
     /// MainWindow.xaml에 대한 상호 작용 논리
@@ -34,6 +34,8 @@ namespace Minesweeper_game
         public MainWindow()
         {
             InitializeComponent();
+            this.ResizeMode = ResizeMode.NoResize | ResizeMode.CanMinimize;
+            this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
 
             Menu menu = new Menu();
             menu.Height = Setting.MenuHeight;
@@ -75,7 +77,7 @@ namespace Minesweeper_game
             this.Width = Setting.Width * Setting.BlockWidth + 15;
             this.Height = Setting.Height * Setting.BlockHeight + Setting.MenuHeight + Setting.ResetButtonHeight + 40;
 
-            AddChild(sp);
+            this.Content = sp;
         }
 
         private void EventResetButtonClick(object sender, MouseButtonEventArgs e)
